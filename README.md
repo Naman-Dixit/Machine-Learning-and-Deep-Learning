@@ -1,47 +1,70 @@
-# Machine Learning and Deep Learning Lab
+# Machine Learning and Deep Learning — Lab
+### CSDS3102P | UPES | Data Science — Batch 7
 
-This repository contains the practical implementations for the CSDS3102P course. The focus is on applying fundamental ML algorithms and advancing into Deep Learning architectures using Python.
+Practical implementations of ML and DL algorithms as per the official lab syllabus. Written in Python using Scikit-Learn, Keras, and TensorFlow.
 
-# Course Objectives
-Implement and evaluate ML/DL algorithms for real-world tasks.
+---
 
-Master industry-standard libraries (Scikit-Learn, TensorFlow, Keras).
+## Repository Structure
 
-Understand the transition from classical statistical learning to deep neural networks.
+```text
+MLDL-Lab/
+├── 01_Linear_Regression/
+│   └── linear_regression.ipynb
+│
+├── 02_Multiple_Linear_Regression/
+│   └── multiple_linear_regression.ipynb
+│
+├── 03_Regularization/
+│   └── lasso_ridge_elasticnet.ipynb
+│
+├── 04_Logistic_Regression/
+│   └── logistic_regression.ipynb
+│
+├── 05_KNN_Classification/
+│   └── knn_classifier.ipynb
+│
+├── 06_SVM_Classification/
+│   └── svm_classifier.ipynb
+│
+├── 07_LDA_Classification/
+│   └── lda_classifier.ipynb
+│
+├── 08_Ensemble_Model/
+│   └── ensemble_model.ipynb
+│
+├── 09_Neural_Network/
+│   └── simple_neural_network.ipynb
+│
+├── 10_CNN/
+│   └── convolutional_neural_network.ipynb
+│
+├── datasets/
+├── requirements.txt
+└── README.md
+```
 
-# Tech Stack
-Language: Python
+---
 
-Frameworks: TensorFlow, Keras
+## For colaboration
 
-Libraries: Scikit-Learn, Pandas, NumPy, Matplotlib
+```bash
+git clone https://github.com/<your-username>/MLDL-Lab.git
+cd MLDL-Lab
+pip install -r requirements.txt
+jupyter notebook
+```
 
-# Tools: Jupyter Notebook, Google Colab
+**Dependencies:** `numpy`, `pandas`, `matplotlib`, `scikit-learn`, `tensorflow`, `keras`
 
-# Lab Experiments
-# Phase 1: Evaluation & Regression
-Metrics: Implementation of Precision, Accuracy, Recall, and F1 Score.
+---
 
-Linear Regression: Univariate relationship modeling.
+## References
 
-Multiple Linear Regression: Multivariate analysis and prediction.
+1. Aurélien Géron — *Hands-on ML with Scikit-Learn, Keras & TensorFlow*, O'Reilly, 3rd ed., 2022
+2. Tom M. Mitchell — *Machine Learning*, McGraw Hill, 2017
+3. Goodfellow, Bengio & Courville — *Deep Learning*, MIT Press, 2016
 
-Regularization: Comparison of Lasso, Ridge, and Elastic Net to prevent overfitting.
+---
 
-# Phase 2: Classification & Clustering
-Logistic Regression: Binary classification implementation.
-
-k-Nearest Neighbor (k-NN): Instance-based learning.
-
-Support Vector Machines (SVM): Optimal hyperplane separation.
-
-Linear Discriminant Analysis (LDA): Dimensionality reduction and classification.
-
-k-Means Clustering: Unsupervised partitioning and centroid optimization.
-
-# Phase 3: Deep Learning
-Simple Neural Network: Perceptron and Backpropagation fundamentals.
-
-Convolutional Neural Networks (CNN): Image processing, pooling, and dropout layers.
-
-Long Short-Term Memory (LSTM): Sequence modeling and Gated RNNs for time-series/text.
+**Naman Dixit** — Semester 6 | UPES, Data Science Batch 7
